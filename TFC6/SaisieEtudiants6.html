@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INSCRIPTION ETUDIANTS</title>
+		<link rel="stylesheet" type="text/css" href="Clignotante2.css">
+</head><meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style type="text/css">
+body{
+	margin: 0px;
+	padding: 0px;
+}
+h2{     text-shadow: 3px 5px 3px #48B8AB;
+        color: white;
+		border: 150px;
+		border-width: 2px ;
+		border-style: solid;
+		border-radius:7px ;
+		box-shadow: 3px 5px 3px 3px ;
+	}
+	#con{
+               font-size: 15px;
+
+		}
+		
+	#con{	width: 80px;
+		height: 30px;
+		color: white;
+		border: 1px;
+		border-width: 2px ;
+		border-style: solid;
+		border-radius:10px ;
+		box-shadow: 3px 4px 5px 3px ;
+		}
+
+		table{
+                color: white;
+		border: 150px;
+		border-width: 2px ;
+		border-style: solid;
+	       border-radius:7px ;
+	       box-shadow: 3px 5px 3px 3px ;
+		}
+
+	.gracia{color: white;
+		border: 1px;
+		border-width: 2px ;
+		border-style: solid;
+	       border-radius:10px ;
+	       box-shadow: 3px 4px 5px 3px ;
+		font-style: italic;
+		font-size: x-large;
+              text-decoration: none;
+		font-family: cursive;
+		margin: 50px;
+		padding: 2px;
+		position: absolute;
+		display: flex;
+		}
+	 
+	 #con, h2, h3{
+		font-family: cursive;
+	}
+		input{
+			height: 20px;
+		}
+		h1{
+			text-align: center;
+		}
+		center{
+			position:relative;
+		}
+		
+	</style>
+	
+<body bgcolor="#4C4C4C"> <a href="Login.php" class="gracia">AUTHENTIFICATION</a>
+
+<center>
+	<table width="480">
+<marquee><tr><th>
+	<font style="background-color:peachpuff; font-size: 20px;">
+<ul>
+<li>H</li>
+<li>a</li>
+<li>t</li>
+<li>e</li>
+<li>z</li>
+
+&nbsp
+
+<li>v</li>
+<li>o</li>
+<li>u</li>
+<li>s</li>
+
+&nbsp
+
+<li>c</li>
+<li>a</li>
+<li>r</li>
+
+&nbsp
+
+<li>l</li>
+<li>e</li>
+<li>s</li>
+
+&nbsp
+
+<li>p</li>
+<li>l</li>
+<li>a</li>
+<li>c</li>
+<li>e</li>
+<li>s</li>
+
+&nbsp
+
+<li>s</li>
+<li>o</li>
+<li>n</li>
+<li>t</li>
+
+&nbsp
+
+<li>l</li>
+<li>i</li>
+<li>m</li>
+<li>i</li>
+<li>t</li>
+<li>é</li>
+<li>s</li>
+</ul>	      
+</th>
+</tr></marquee>
+</table>
+</center>
+
+<br><br>
+
+<center>
+
+	<form method="POST" action="AjouterEtudiants6.php" enctype="multipart/form-data">
+
+<fieldset><legend align="center"><h2><font color="#F0E83A">INSCRIPTION DES ETUDIANTS EN LIGNE</font></h2></legend>
+
+		<table border="0" width="">
+
+<tr><td><b>NOM:</b></td>
+		<td><input type="text" name="nom" value="" required maxlength="50" placeholder="Amini" size="20"></td></tr>
+<tr><td><b>POSTNOM:</b></td>
+		<td><input type="text" name="postnom" value="" required maxlength="50" placeholder="Mabiala Zihalirwa" size="20"></td></tr>
+<tr><td><b>PRENOM:</b></td>
+		<td><input type="text" name="prenom" value="" required maxlength="50" placeholder="Amini" size="20"></td></tr>
+<tr><td><b>PROMOTION:</b></td>
+		<td><select size="0" name="promotion" required=""><option></option><option>G1</option><option>G2</option><option>G3</option><option>L1</option><option>L2</option><option>Master</option></select></td></tr>
+<tr><td><b>OPTION:</b></td>
+		<td><select size="0" name="options" required><option></option><option>Gestion Informatique</option><option>Hôtellerie</option><option>Marketing</option><option>Secrétariat</option><option>Science Infirmière</option></select></td></tr>
+<tr><td><b>PHOTO:</b></td>
+		<td><input type="file" name="photo" value="" required size="20"></td></tr>
+<tr><td><b>SEXE:</b></td>
+		<td><select size="0" name="sexe" required><option></option><option>Masculin</option><option>Féminin</option></option></select></td></tr>
+<tr><td><b>EMAIL:</b></td>
+		<td><input type="email" name="email" value="" required maxlength="50" placeholder="aminimabiala@gmail.com" size="20"></td></tr>
+<tr><td><b>TELEPHONE:</b></td>
+		<td><input type="text" name="telephone" value="" maxlength="50" placeholder="+243903597161" required="" size="20"></td></tr>
+<tr><td><b>DATE_NAIS:</b></td>
+		<td><input type="date" name="date" value="" placeholder="" required="" size="0"></td></tr>
+</table>
+<br>
+<center><label><h3 style="color:white">Vous recevrez un lien de notre compte bancaire après le traitement de vos dossiers via votre adresse E-mail</h3></label></center>
+
+<input type="submit" name="" value="Envoyer" id="con" style="color:blue;">
+<input type="reset" name="" value="Effacer" id="con" style="color:blue;">
+
+</fieldset>
+</form>
+</center>
+</body>
+</html>
